@@ -1,0 +1,17 @@
+<div *ngIf="error" class="alert alert-danger error-msg" role="alert" >
+    {{message}}
+</div>
+<div class="login">
+    <div class="message">CAREER_CMS - LOGIN</div>
+    <div id="darkbannerwrap"></div>
+    <form (ngSubmit)="onSubmit()" >
+        <!--<input name="action" value="login" type="hidden">-->
+        <input name="username" placeholder="用户名" [(ngModel)]="model.cellphone"  type="text" required>
+        <hr class="hr15">
+        <input name="password" placeholder="密码" [(ngModel)]="model.pwd"  type="password" required>
+        <hr class="hr15">
+        <input value="LOGIN" style="width:100%;height: auto" type="submit" id="login">
+        <hr class="hr20">
+    </form>
+</div>
+<!--<router-outlet></router-outlet>-->

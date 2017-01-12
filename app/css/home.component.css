@@ -1,0 +1,108 @@
+body{background-image: none}
+.page-header {
+    padding-bottom: 12px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+.page-header h1{
+    font-size: 18px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+}
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    padding: 9px;
+    border-radius: 3px;
+}
+.mbm {
+    margin-bottom: 10px;
+}
+tbody{
+    font-size: 14px !important;
+}
+.mtl{
+    margin: 20px 0;
+}
+.space{
+    padding: 40px 0px;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+textarea{
+    resize: none;
+}
+.btn-success{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+
+
+
+
+/*Additional css*/
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    outline: 0;
+    margin-top:0
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857;
+    vertical-align: baseline;
+    border-top: 1px solid #e7ecf1;
+}
+.input-group-v{
+    width: 80%;
+}
+.school-tj{
+    position: relative;
+}
+.input-group-i ul{
+    padding: 0;
+    margin: 0;
+}
+.input-group-i ul li{
+    list-style: none;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 15px;
+}
+.input-group-i{
+    background: #fff;
+    border:1px solid #eee;
+    position:absolute;
+    width: 50%;
+    top: 95px;
+    left: 15px;
+    /*display: none;*/
+}
+.space{
+    display: none;
+    text-align: center;
+}
+#pagination{
+    display: inline-block;
+}
+.paginationparent{
+    text-align: center;
+}
